@@ -1731,6 +1731,7 @@ RUN(NAME select_type_37 LABELS gfortran llvm llvm_wasm llvm_wasm_emcc)
 RUN(NAME select_type_38 LABELS gfortran llvm)
 RUN(NAME select_type_39 LABELS gfortran llvm)
 RUN(NAME select_type_40 LABELS gfortran llvm)
+RUN(NAME select_type_41 LABELS gfortran llvm)
 
 RUN(NAME select_type_42 LABELS gfortran llvm)
 
@@ -1826,6 +1827,7 @@ RUN(NAME implicit_typing_04 LABELS gfortran llvmImplicit EXTRA_ARGS --implicit-i
 RUN(NAME implicit_typing_05 LABELS gfortran llvm  EXTRA_ARGS --implicit-typing)
 RUN(NAME implicit_typing_06 LABELS gfortran llvm llvm_wasm llvm_wasm_emcc fortran EXTRA_ARGS --implicit-typing)
 RUN(NAME implicit_typing_07 LABELS gfortran llvm EXTRA_ARGS --implicit-typing)
+RUN(NAME implicit_typing_08 LABELS gfortran llvm EXTRA_ARGS --implicit-typing)
 
 
 RUN(NAME generic_name_01 LABELS gfortran llvm llvm_wasm llvm_wasm_emcc)
@@ -2181,6 +2183,7 @@ RUN(NAME allocate_51 LABELS gfortran llvm)
 RUN(NAME allocate_52 LABELS gfortran llvm)
 RUN(NAME allocate_53 LABELS gfortran llvm)
 RUN(NAME allocate_54 LABELS gfortran llvm)
+RUN(NAME allocate_55 LABELS gfortran llvm)
 
 RUN(NAME realloc_lhs_01 LABELS gfortran llvm
     EXTRA_ARGS --realloc-lhs-arrays)
@@ -2675,6 +2678,7 @@ RUN(NAME class_139 LABELS gfortran llvm)
 RUN(NAME class_140 LABELS gfortran llvm)
 RUN(NAME class_141 LABELS gfortran llvm)
 RUN(NAME class_142 LABELS gfortran llvm)
+RUN(NAME class_143 LABELS gfortran llvm)
 
 RUN(NAME class_procedure_args_01 LABELS gfortran llvm)
 
@@ -2844,6 +2848,7 @@ RUN(NAME implied_do_loops22 LABELS gfortran llvm llvm_wasm llvm_wasm_emcc fortra
 RUN(NAME implied_do_loops23 LABELS gfortran llvm EXTRA_ARGS --realloc-lhs-arrays)
 RUN(NAME implied_do_loops24 LABELS gfortran llvm EXTRA_ARGS --realloc-lhs-arrays)
 RUN(NAME implied_do_loops25 LABELS gfortran llvm EXTRA_ARGS --realloc-lhs-arrays)
+RUN(NAME implied_do_loops26 LABELS gfortran llvm llvm_wasm llvm_wasm_emcc EXTRA_ARGS --use-loop-variable-after-loop)
 RUN(NAME implied_do_loops_strings LABELS gfortran llvm llvm_wasm llvm_wasm_emcc fortran EXTRA_ARGS --realloc-lhs-arrays)
 RUN(NAME implied_do_loops_print LABELS gfortran llvm llvm_wasm llvm_wasm_emcc fortran)
 
@@ -2907,6 +2912,8 @@ RUN(NAME array_section_13 LABELS gfortran llvm llvm_wasm llvm_wasm_emcc)
 RUN(NAME array_section_14 LABELS gfortran llvm llvm_wasm llvm_wasm_emcc)
 RUN(NAME array_section_15 LABELS gfortran llvm llvm_wasm llvm_wasm_emcc)
 RUN(NAME array_section_16 LABELS gfortran llvm llvm_wasm llvm_wasm_emcc)
+RUN(NAME array_section_17 LABELS gfortran llvm llvm_wasm llvm_wasm_emcc)
+RUN(NAME array_section_18 LABELS gfortran llvm EXTRAFILES array_section_18b.f90 EXTRA_ARGS --implicit-interface --legacy-array-sections)
 
 RUN(NAME nested_vars_01 LABELS gfortran llvm llvm_wasm llvm_wasm_emcc llvmStackArray)
 
@@ -2989,6 +2996,7 @@ RUN(NAME read_52 LABELS gfortran llvm llvm_wasm llvm_wasm_emcc)
 
 
 RUN(NAME read_53 LABELS gfortran llvm llvm_wasm llvm_wasm_emcc)
+RUN(NAME read_54 LABELS gfortran llvm)
 
 RUN(NAME read_55 LABELS gfortran llvm)
 
