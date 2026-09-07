@@ -44,7 +44,7 @@ public:
     int program_count = 0; // To track number of program units in a single file
     Location first_program_loc; // Location of the first program unit
     std::string interface_name = "";
-    ASR::symbol_t *current_module_sym;
+    ASR::symbol_t *current_module_sym = nullptr;
 
     ASR::ttype_t *tmp_type;
 

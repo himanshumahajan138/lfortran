@@ -1,0 +1,13 @@
+{
+    "basename": "asr-class_procedure_nopass_1-68c2231",
+    "cmd": "lfortran --show-asr --no-color {infile} -o {outfile}",
+    "infile": "tests/class_procedure_nopass_1.f90",
+    "infile_hash": "8eed498282d276f847b257429cff3cbfe15bcfba8ff795062f8ec1d3",
+    "outfile": null,
+    "outfile_hash": null,
+    "stdout": "asr-class_procedure_nopass_1-68c2231.stdout",
+    "stdout_hash": "53c59310609c1f86899fb2a45c8a09384afe81af966a0ef412d2f360",
+    "stderr": null,
+    "stderr_hash": null,
+    "returncode": 0
+}
